@@ -1,2 +1,2 @@
 # data_module_drafts
-Materials used in Module D: Fundamentals
+Materials used in Data 6 modules
