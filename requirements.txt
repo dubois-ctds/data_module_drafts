@@ -1,0 +1,5 @@
+# Python deps for Binder (and local notebooks). Add packages here when new notebooks import them.
+numpy
+datascience
+matplotlib
+ipykernel

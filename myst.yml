@@ -1,0 +1,43 @@
+version: 1
+project:
+  title: DUBOIS CTDS Data Modules
+  description: Curriculum notebooks and materials for DUBOIS CTDS Data Modules.
+  authors:
+  - name: DUBOIS CTDS
+  github: dubois-ctds/data_module_drafts
+  jupyter:
+    binder:
+      repo: dubois-ctds/data_module_drafts
+      ref: main
+      url: https://mybinder.org
+    kernelName: python3
+  exclude:
+  - README.md
+  - LICENSE.md
+  toc:
+  - file: intro.md
+  - title: Fundamentals
+    children:
+    - title: Lecture notebooks
+      children:
+      - title: ModuleD Week2 Lecture Notebook
+        file: fundamentals/lecture_notebooks/ModuleD_Week2_Lecture_Notebook.ipynb
+    - title: Labs
+      children:
+      - title: Lab 01
+        file: fundamentals/labs/lab01/lab01.ipynb
+      - title: Lab 02
+        file: fundamentals/labs/lab02/lab_2_09_09.ipynb
+    - title: Homework
+      children:
+      - title: Homework 01
+        file: fundamentals/homeworks/HW01/Homework 1 09_09.ipynb
+site:
+  template: book-theme
+  options:
+    logo: assets/images/logomark.png
+    favicon: assets/images/logomark.png
+    logo_text: DUBOIS CTDS
+    hide_authors: true
+    hide_myst_branding: true
+    hide_outline: false

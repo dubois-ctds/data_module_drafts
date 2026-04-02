@@ -1,0 +1,42 @@
+# Jupyter Book / MyST
+_build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+
+# Local env / secrets (keep .env.example tracked if you use one)
+.env
+.env.*
+!.env.example
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Testing / type check / linters
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.idea/
+*.swp
+*.swo
+*~
