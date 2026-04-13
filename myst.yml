@@ -16,6 +16,8 @@ project:
   - LICENSE.md
   toc:
   - file: intro.md
+  - title: DUBOIS Home
+    url: https://dubois-ctds.github.io/
   - title: Fundamentals
     children:
     - title: Lecture notebooks

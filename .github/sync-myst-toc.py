@@ -28,6 +28,9 @@ EXIT_ERROR = 2
 MODULES: list[tuple[str, str]] = [
     ("fundamentals", "Fundamentals"),
 ]
+EXTERNAL_LINKS: list[dict[str, str]] = [
+    {"title": "DUBOIS Home", "url": "https://dubois-ctds.github.io/"},
+]
 
 LAB_DIR_RE = re.compile(r"^lab(\d+)$", re.IGNORECASE)
 HW_DIR_RE = re.compile(r"^hw(\d+)$", re.IGNORECASE)
@@ -178,6 +181,9 @@ def main() -> int:
     intro = REPO_ROOT / "intro.md"
     if intro.exists():
         toc.append({"file": "intro.md"})
+
+    for external_link in EXTERNAL_LINKS:
+        toc.append(external_link)
 
     for folder_name, sidebar_title in MODULES:
         part = build_module_toc_part(folder_name, sidebar_title)
