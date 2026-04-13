@@ -29,7 +29,7 @@ MODULES: list[tuple[str, str]] = [
     ("fundamentals", "Fundamentals"),
 ]
 EXTERNAL_LINKS: list[dict[str, str]] = [
-    {"title": "DUBOIS Home", "url": "https://dubois-ctds.github.io/"},
+    {"title": "About the Curriculum", "url": "https://dubois-ctds.github.io/curriculum/"},
 ]
 
 LAB_DIR_RE = re.compile(r"^lab(\d+)$", re.IGNORECASE)
@@ -182,9 +182,6 @@ def main() -> int:
     if intro.exists():
         toc.append({"file": "intro.md"})
 
-    for external_link in EXTERNAL_LINKS:
-        toc.append(external_link)
-
     for folder_name, sidebar_title in MODULES:
         part = build_module_toc_part(folder_name, sidebar_title)
         if part is not None:
@@ -214,6 +211,9 @@ def main() -> int:
                 "children": [{"title": "Sandbox", "file": "sandbox/sandbox.ipynb"}],
             }
         )
+
+    for external_link in EXTERNAL_LINKS:
+        toc.append(external_link)
 
     try:
         with open(MYST_PATH, "r") as f:

@@ -16,8 +16,6 @@ project:
   - LICENSE.md
   toc:
   - file: intro.md
-  - title: DUBOIS Home
-    url: https://dubois-ctds.github.io/
   - title: Fundamentals
     children:
     - title: Lecture notebooks
@@ -34,6 +32,8 @@ project:
       children:
       - title: Homework 01
         file: fundamentals/homeworks/HW01/Homework 1 09_09.ipynb
+  - title: About the Curriculum
+    url: https://dubois-ctds.github.io/curriculum/
 site:
   template: book-theme
   options:
