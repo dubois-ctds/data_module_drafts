@@ -36,6 +36,8 @@ project:
     children:
     - title: Labs
       children:
+      - title: Lab 05
+        file: visualizations/labs/lab05/lab05.ipynb
       - title: Lab 06
         file: visualizations/labs/lab06/lab06.ipynb
     - title: Homework
