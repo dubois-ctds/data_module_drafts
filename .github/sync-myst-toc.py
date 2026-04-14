@@ -27,6 +27,7 @@ EXIT_ERROR = 2
 # (folder_name_under_repo, sidebar_title). Only folders that exist are scanned.
 MODULES: list[tuple[str, str]] = [
     ("fundamentals", "Fundamentals"),
+    ("visualizations", "Visualizations"),
 ]
 EXTERNAL_LINKS: list[dict[str, str]] = [
     {"title": "About the Curriculum", "url": "https://dubois-ctds.github.io/curriculum/"},
