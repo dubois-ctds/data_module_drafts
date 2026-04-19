@@ -40,3 +40,6 @@ Thumbs.db
 *.swp
 *.swo
 *~
+
+# MyST build outputs
+_build
