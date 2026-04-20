@@ -44,6 +44,14 @@ project:
       children:
       - title: Homework 03
         file: visualizations/homeworks/hw03/hw03.ipynb
+  - title: Visualizations (Polars)
+    children:
+    - title: Labs
+      children:
+      - title: lab05-matplot-polars-v2
+        file: visualizations_polars/labs/lab05-matplot-polars-v2/lab05-matplot-polars-v2.ipynb
+      - title: lab06-polars-v2
+        file: visualizations_polars/labs/lab06-polars-v2/lab06-polars-v2.ipynb
   - title: About the Curriculum
     url: https://dubois-ctds.github.io/curriculum/
 site:
