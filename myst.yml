@@ -48,9 +48,9 @@ project:
     children:
     - title: Labs
       children:
-      - title: Lab 05
+      - title: lab05-matplot-polars-v2
         file: visualizations_polars/labs/lab05-matplot-polars-v2/lab05-matplot-polars-v2.ipynb
-      - title: Lab 06
+      - title: lab06-polars-v2
         file: visualizations_polars/labs/lab06-polars-v2/lab06-polars-v2.ipynb
   - title: About the Curriculum
     url: https://dubois-ctds.github.io/curriculum/
