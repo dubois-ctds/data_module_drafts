@@ -28,7 +28,7 @@ EXIT_ERROR = 2
 MODULES: list[tuple[str, str]] = [
     ("fundamentals", "Fundamentals"),
     ("visualizations", "Visualizations"),
-    (("functions", "Functions"),)
+    ("functions", "Functions"),
     ("fundamentals_fa25", "Fundamentals (FA25)"),
     ("visualizations_polars", "Visualizations (Polars)"),
     
