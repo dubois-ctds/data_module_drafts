@@ -48,9 +48,9 @@ project:
     children:
     - title: Labs
       children:
-      - title: lab05-matplot-polars-v2
+      - title: Lab 05
         file: visualizations_polars/labs/lab05-matplot-polars-v2/lab05-matplot-polars-v2.ipynb
-      - title: lab06-polars-v2
+      - title: Lab 06
         file: visualizations_polars/labs/lab06-polars-v2/lab06-polars-v2.ipynb
   - title: Fundamentals (FA25)
     children:
