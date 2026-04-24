@@ -48,9 +48,9 @@ project:
     children:
     - title: Labs
       children:
-      - title: Lab 05
+      - title: lab05-matplot-polars-v2
         file: visualizations_polars/labs/lab05-matplot-polars-v2/lab05-matplot-polars-v2.ipynb
-      - title: Lab 06
+      - title: lab06-polars-v2
         file: visualizations_polars/labs/lab06-polars-v2/lab06-polars-v2.ipynb
   - title: Fundamentals (FA25)
     children:
@@ -62,6 +62,12 @@ project:
         file: fundamentals_fa25/labs/lab02/lab02.ipynb
       - title: Lab 03
         file: fundamentals_fa25/labs/lab03/lab03.ipynb
+    - title: Homework
+      children:
+      - title: Homework 01
+        file: fundamentals_fa25/homeworks/hw01/hw01.ipynb
+      - title: Homework 02
+        file: fundamentals_fa25/homeworks/hw02/hw02.ipynb
   - title: About the Curriculum
     url: https://dubois-ctds.github.io/curriculum/
 site:
