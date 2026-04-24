@@ -29,6 +29,7 @@ MODULES: list[tuple[str, str]] = [
     ("fundamentals", "Fundamentals"),
     ("visualizations", "Visualizations"),
     ("functions", "Functions"),
+    ("current_topics", "Current topics"),
     ("fundamentals_fa25", "Fundamentals (FA25)"),
     ("visualizations_polars", "Visualizations (Polars)"),
     
