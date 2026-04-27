@@ -46,9 +46,6 @@ project:
       children:
       - title: Homework 03
         file: visualizations/homeworks/hw03/hw03.ipynb
-      - title: Project 1
-        file: visualizations/homeworks/project1/project1.ipynb
-
   - title: Functions
     children:
     - title: Labs
@@ -65,8 +62,14 @@ project:
         file: functions/homeworks/hw04/hw04.ipynb
       - title: Homework 05
         file: functions/homeworks/hw05/hw05.ipynb
-      - title: Project 2
-        file: functions/homeworks/project2/project2.ipynb
+  - title: Current topics
+    children:
+    - title: Labs
+      children:
+      - title: Lab 12
+        file: current_topics/labs/lab12/lab12.ipynb
+      - title: Lab 13
+        file: current_topics/labs/lab13/lab13.ipynb
   - title: Fundamentals (FA25)
     children:
     - title: Labs
