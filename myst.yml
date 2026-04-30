@@ -34,6 +34,8 @@ project:
         file: fundamentals/homeworks/HW01/Homework 1 09_09.ipynb
   - title: Fundamentals (Fall 2025)
     children:
+    - title: Lecture notebooks
+      children:
     - title: Labs
       children:
       - title: Lab 01
@@ -50,6 +52,8 @@ project:
         file: fundamentals_fa25/homeworks/hw02/hw02.ipynb
   - title: Visualizations
     children:
+    - title: Lecture notebooks
+      children:
     - title: Labs
       children:
       - title: Lab 01
@@ -76,6 +80,8 @@ project:
         file: visualizations_polars/labs/lab06/lab06-polars-v2.ipynb
   - title: Functions
     children:
+    - title: Lecture notebooks
+      children:
     - title: Labs
       children:
       - title: Lab 01
@@ -96,6 +102,8 @@ project:
         file: functions/projects/project2/project2.ipynb 
   - title: Current topics
     children:
+    - title: Lecture notebooks
+      children:
     - title: Labs
       children:
       - title: Lab 01
