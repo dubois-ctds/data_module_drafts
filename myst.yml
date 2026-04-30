@@ -62,6 +62,10 @@ project:
       children:
       - title: Homework 01
         file: visualizations/homeworks/hw01/hw01.ipynb
+    - title: Projects
+      children:
+      - title: Project 01
+        file: visualizations/projects/project1/project1.ipynb 
   - title: Visualizations (Polars)
     children:
     - title: Labs
@@ -86,6 +90,10 @@ project:
         file: functions/homeworks/hw01/hw01.ipynb
       - title: Homework 02
         file: functions/homeworks/hw02/hw02.ipynb
+    - title: Projects
+      children:
+      - title: Project 02
+        file: functions/projects/project2/project2.ipynb 
   - title: Current topics
     children:
     - title: Labs
@@ -94,6 +102,14 @@ project:
         file: current_topics/labs/lab01/lab01.ipynb
       - title: Lab 02
         file: current_topics/labs/lab02/lab02.ipynb
+    - title: Projects
+      children:
+      - title: Final Project
+        children: 
+          - title: Final Project (Part A)
+            file: current_topics/projects/project_final/project_final_partA.ipynb
+          - title: Final Project (Part B)
+            file: current_topics/projects/project_final/project_final_partB.ipynb
   - title: About the Curriculum
     url: https://dubois-ctds.github.io/curriculum/
 site:
