@@ -37,7 +37,7 @@ project:
         - title: Lecture Notebooks
           children:
             - file: fundamentals/lecture_notebooks/ModuleD_Week2_Lecture_Notebook.ipynb
-    - title: Fundamentals Fa25
+    - title: Fundamentals (Fall 2025)
       children:
         - title: Homeworks
           children:
@@ -75,22 +75,6 @@ project:
             - title: Lec04
               children:
                 - file: fundamentals_fa25/lecture_notebooks/lec04/lec04.ipynb
-    - title: Fundamentals Fa25 Polars
-      children:
-        - title: Lecture Notebooks
-          children:
-            - title: Lec01
-              children:
-                - file: fundamentals_fa25_polars/lecture_notebooks/lec01/lec01.ipynb
-            - title: Lec02
-              children:
-                - file: fundamentals_fa25_polars/lecture_notebooks/lec02/lec02.ipynb
-            - title: Lec03
-              children:
-                - file: fundamentals_fa25_polars/lecture_notebooks/lec03/lec03.ipynb
-            - title: Lec04
-              children:
-                - file: fundamentals_fa25_polars/lecture_notebooks/lec04/lec04.ipynb
     - title: Visualizations
       children:
         - title: Homeworks
