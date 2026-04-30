@@ -21,17 +21,17 @@ project:
     - title: Lecture notebooks
       children:
       - title: ModuleD Week2 Lecture Notebook
-        file: fundamentals/lecture_notebooks/ModuleD_Week2_Lecture_Notebook.ipynb
+        file: fundamentals/lecture_notebook/ModuleD_Week2_Lecture_Notebook.ipynb
     - title: Labs
       children:
       - title: Lab 01
-        file: fundamentals/labs/lab01/lab01.ipynb
+        file: fundamentals/lab/lab01/lab01.ipynb
       - title: Lab 02
-        file: fundamentals/labs/lab02/lab_2_09_09.ipynb
-    - title: Homework
+        file: fundamentals/lab/lab02/lab_2_09_09.ipynb
+    - title: Homeworks
       children:
-      - title: Homework 01
-        file: fundamentals/homeworks/HW01/Homework 1 09_09.ipynb
+      - title: Homeworks 01
+        file: fundamentals/homework/HW01/Homework 1 09_09.ipynb
   - title: Fundamentals (Fall 2025)
     children:
     - title: Lecture notebooks
@@ -39,17 +39,17 @@ project:
     - title: Labs
       children:
       - title: Lab 01
-        file: fundamentals_fa25/labs/lab01/lab01.ipynb
+        file: fundamentals_fa25/lab/lab01/lab01.ipynb
       - title: Lab 02
-        file: fundamentals_fa25/labs/lab02/lab02.ipynb
+        file: fundamentals_fa25/lab/lab02/lab02.ipynb
       - title: Lab 03
-        file: fundamentals_fa25/labs/lab03/lab03.ipynb
-    - title: Homework
+        file: fundamentals_fa25/lab/lab03/lab03.ipynb
+    - title: Homeworks
       children:
       - title: Homework 01
-        file: fundamentals_fa25/homeworks/hw01/hw01.ipynb
+        file: fundamentals_fa25/homework/hw01/hw01.ipynb
       - title: Homework 02
-        file: fundamentals_fa25/homeworks/hw02/hw02.ipynb
+        file: fundamentals_fa25/homework/hw02/hw02.ipynb
   - title: Visualizations
     children:
     - title: Lecture notebooks
@@ -57,27 +57,27 @@ project:
     - title: Labs
       children:
       - title: Lab 01
-        file: visualizations/labs/lab01/lab01.ipynb
+        file: visualizations/lab/lab01/lab01.ipynb
       - title: Lab 02
-        file: visualizations/labs/lab02/lab02.ipynb
+        file: visualizations/lab/lab02/lab02.ipynb
       - title: Lab 03
-        file: visualizations/labs/lab03/lab03.ipynb
-    - title: Homework
+        file: visualizations/lab/lab03/lab03.ipynb
+    - title: Homeworks
       children:
       - title: Homework 01
-        file: visualizations/homeworks/hw01/hw01.ipynb
+        file: visualizations/homework/hw01/hw01.ipynb
     - title: Projects
       children:
       - title: Project 01
-        file: visualizations/projects/project1/project1.ipynb 
+        file: visualizations/project/project1/project1.ipynb 
   - title: Visualizations (Polars)
     children:
     - title: Labs
       children:
       - title: Lab 05
-        file: visualizations_polars/labs/lab05/lab05-matplot-polars-v2.ipynb
+        file: visualizations_polars/lab/lab05/lab05-matplot-polars-v2.ipynb
       - title: Lab 06
-        file: visualizations_polars/labs/lab06/lab06-polars-v2.ipynb
+        file: visualizations_polars/lab/lab06/lab06-polars-v2.ipynb
   - title: Functions
     children:
     - title: Lecture notebooks
@@ -85,21 +85,21 @@ project:
     - title: Labs
       children:
       - title: Lab 01
-        file: functions/labs/lab01/lab01.ipynb
+        file: functions/lab/lab01/lab01.ipynb
       - title: Lab 02
-        file: functions/labs/lab02/lab02.ipynb
+        file: functions/lab/lab02/lab02.ipynb
       - title: Lab 03
-        file: functions/labs/lab03/lab03.ipynb
-    - title: Homework
+        file: functions/lab/lab03/lab03.ipynb
+    - title: Homeworks
       children:
       - title: Homework 01
-        file: functions/homeworks/hw01/hw01.ipynb
+        file: functions/homework/hw01/hw01.ipynb
       - title: Homework 02
-        file: functions/homeworks/hw02/hw02.ipynb
+        file: functions/homework/hw02/hw02.ipynb
     - title: Projects
       children:
       - title: Project 02
-        file: functions/projects/project2/project2.ipynb 
+        file: functions/project/project2/project2.ipynb 
   - title: Current topics
     children:
     - title: Lecture notebooks
@@ -107,17 +107,17 @@ project:
     - title: Labs
       children:
       - title: Lab 01
-        file: current_topics/labs/lab01/lab01.ipynb
+        file: current_topics/lab/lab01/lab01.ipynb
       - title: Lab 02
-        file: current_topics/labs/lab02/lab02.ipynb
+        file: current_topics/lab/lab02/lab02.ipynb
     - title: Projects
       children:
       - title: Final Project
         children: 
           - title: Final Project (Part A)
-            file: current_topics/projects/project_final/project_final_partA.ipynb
+            file: current_topics/project/project_final/project_final_partA.ipynb
           - title: Final Project (Part B)
-            file: current_topics/projects/project_final/project_final_partB.ipynb
+            file: current_topics/project/project_final/project_final_partB.ipynb
   - title: About the Curriculum
     url: https://dubois-ctds.github.io/curriculum/
 site:
